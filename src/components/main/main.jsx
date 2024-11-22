@@ -31,10 +31,10 @@ const Main = () => {
            </div>
            <div className='h-0.5  w-full bg-[#E6E8f0]'/>
            <div className='flex flex-col'>
-            <p className='text-[34px] font-bold pl-[25px] text-[#000000f5]'>$112,340</p>
+            <p className='text-[28px] font-bold pl-[25px] text-[#000000f5]'>$112,340</p>
              <Barchart />
            </div>
-           <div className='flex flex-row justify-start items-start w-full pl-[25px] gap-[20px]'>
+           <div className='flex flex-row justify-start items-start w-full pl-[15px] gap-[10px]'>
             <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Pending(100%)</p></div>
             <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient2 w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Pending(100%)</p></div>
             <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient3 w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Pending(100%)</p></div>
@@ -54,14 +54,14 @@ const Main = () => {
            <div className='flex flex-row gap-[5px] py-[48px]'>
               <Graph />
                 <div className='flex flex-col justify-start items-start'>
-                  <div className='flex flex-row justify-center items-center justify-items-center gap-[0.5px] '>
+                  <div className='flex flex-row  '>
                     <Graph3 />
                     <div>
                       <p className='text-[14px] text-[#081735] font-bold'>+ 18%</p>
                       <p className='text-[12px] text-[#8F95B2]'>Daily Customers</p>
                     </div>
                   </div>
-                  <div className='flex flex-row justify-center items-center justify-items-center gap-[0.5px]'>
+                  <div className='flex flex-row '>
                     <Graph4 />
                     <div className='justify-start w-full'>
                       <p className='text-[14px] text-[#081735] font-bold'>+ 14%</p>

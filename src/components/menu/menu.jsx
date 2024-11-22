@@ -28,7 +28,7 @@ const Menu = () => {
               className='rounded-lg object-cover w-full h-full'
               alt="food" 
             />
-            <div className='absolute bottom-[20px] right-[18px] left-[18px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[5px] flex flex-col gap-[5px] md:h-[70px] h-[55px]'>
+            <div className='absolute bottom-[20px] right-[0px] left-[0px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[2px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>Surf & Turf Gift Basket</p>
                 <p>$89.24</p>

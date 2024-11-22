@@ -31,7 +31,7 @@ const Header = () => {
             </div>
          </div>
        <div className='flex justify-center items-center justify-items-center md:gap-10 gap-4 pl-3 py-3' >
-         <div className='flex flex-row bg-[#FAFAFA] h-5 py-5 px-6 lg:pr-40 md:pr-20 justify-center justify-items-center items-center rounded-[12px] border-[1px] border-[#D9D9D9]'>
+         <div className='flex flex-row bg-[#FAFAFA] h-5 py-5 px-6 lg:pr-40 md:pr-20 pr-10 justify-center justify-items-center items-center rounded-[12px] border-[1px] border-[#D9D9D9]'>
            <Iconly name='Search' set='bulk' stroke='bold' style={{ stroke: "#111827", color:"#ffff", width: 17.2, height: 17.62 }}/>
            <input type="text" placeholder='Search...' className='w-[100px] h-[32px] text-[14px] bg-[#FAFAFA] border-none focus:outline-none ' />
          </div>

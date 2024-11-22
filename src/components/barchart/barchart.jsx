@@ -178,7 +178,7 @@ const Barchart = () => {
       className="mt-10 sm:hidden flex border-[2px] border-[#fff] rounded-xl bg-[#ffff]"
     >
       <BarChart
-        width={350}
+        width={300}
         height={200}
         data={data}
         margin={{ top: 20, right: 0, left: 0, bottom: 20 }}

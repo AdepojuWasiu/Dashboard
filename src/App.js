@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <div className='flex flex-col w-full gap-[31px]'>
          <Header />
-         <div className='flex flex-col  sm:px-7 px-3 gap-[30px]'>
+         <div className='flex flex-col  sm:px-7 px-3 gap-[30px] w-full'>
           <Total />
           <Main />
           <Menu />

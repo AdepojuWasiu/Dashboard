@@ -28,7 +28,7 @@ const Menu = () => {
               className='rounded-lg object-cover w-full h-full'
               alt="food" 
             />
-            <div className='absolute bottom-[20px] right-[0px] left-[0px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[2px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
+            <div className='absolute bottom-[20px] right-[2px] left-[2px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[2px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>Surf & Turf Gift Basket</p>
                 <p>$89.24</p>
@@ -42,7 +42,7 @@ const Menu = () => {
               className='rounded-lg object-cover w-full h-full'
               alt="food" 
             />
-              <div className='absolute bottom-[20px] right-[18px] left-[18px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[5px] md:h-[70px] h-[55px]'>
+              <div className='absolute bottom-[20px] right-[2px] left-[2px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>BBQ Rib Dinner</p>
                 <p>$69.21</p>
@@ -55,7 +55,7 @@ const Menu = () => {
       <div className='grid lg:grid-cols-4 grid-cols-2 gap-[10px] px-[25px]'>
         <div className='relative'>
           <img src={food2} alt="food" className='rounded-lg  object-cover w-full h-full' />
-          <div className='absolute bottom-[20px] right-[18px] left-[18px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[5px] md:h-[70px] h-[55px]'>
+          <div className='absolute bottom-[20px] right-[2px] left-[2px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>Shaking Beef Tri-Tip</p>
                 <p>$69.46</p>
@@ -65,7 +65,7 @@ const Menu = () => {
         </div>
         <div className='relative'>
           <img src={food4} alt="food" className='rounded-lg object-cover w-full h-full' />
-          <div className='absolute bottom-[20px] right-[18px] left-[18px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[5px] md:h-[70px] h-[55px]'>
+          <div className='absolute bottom-[20px] right-[2px] left-[2px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>Surf & Turf Gift Basket</p>
                 <p>$98.49</p>
@@ -75,7 +75,7 @@ const Menu = () => {
         </div>
         <div className='relative'>
           <img src={food5} alt="food" className='rounded-lg object-cover w-full h-full' />
-          <div className='absolute bottom-[20px] right-[18px] left-[18px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[5px] md:h-[70px] h-[55px]'>
+          <div className='absolute bottom-[20px] right-[2px] left-[2px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[2px] md:h-[70px] h-[55px]'>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>Chicken & Ribs Combo</p>
                 <p>$83.56</p>
@@ -85,7 +85,7 @@ const Menu = () => {
         </div>
         <div className='relative'>
           <img src={food6} alt="food" className='rounded-lg' />
-          <div className='absolute bottom-[20px] right-[18px] left-[18px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[5px] md:h-[70px] h-[55px] '>
+          <div className='absolute bottom-[20px] right-[2px] left-[2px] image-shadow border-[1px] border-solid border-[#FFFFFF] rounded-[6px] p-[13px] flex flex-col gap-[2px] md:h-[70px] h-[55px] '>
               <div className='flex flex-row justify-between w-full text-[12px] text-[#1E293B]'>
                 <p>Dark & Stormy</p>
                 <p>$90.58</p>

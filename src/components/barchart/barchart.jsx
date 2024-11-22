@@ -104,14 +104,14 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, Cell } from "recharts";
 const data = [
   { name: "Jan", value: 30 },
   { name: "Feb", value: 40 },
-  { name: "Mar", value: 70, highlight: true, gradient: "url(#gradient4)" }, // Gradient 4
+  { name: "Mar", value: 70, highlight: true, gradient: "url(#gradient4)", color: "#4CAF50" }, // Gradient 4
   { name: "Apr", value: 50 },
   { name: "May", value: 50 },
-  { name: "Jun", value: 120, highlight: true, gradient: "url(#gradient5)" }, // Gradient 5
+  { name: "Jun", value: 120, highlight: true, gradient: "url(#gradient5)", color: "#8A2BE2" }, // Gradient 5
   { name: "Jul", value: 50 },
   { name: "Aug", value: 50 },
   { name: "Sep", value: 20 },
-  { name: "Oct", value: 80, highlight: true, gradient: "url(#gradient6)" }, // Gradient 6
+  { name: "Oct", value: 80, highlight: true, gradient: "url(#gradient6)", color: "#FF69B4" }, // Gradient 6
   { name: "Nov", value: 50 },
   { name: "Dec", value: 50 },
 ];
@@ -209,7 +209,7 @@ const Barchart = () => {
           {data.map((entry, index) => (
             <Cell
               key={`cell-${index}`}
-              fill={entry.highlight ? entry.gradient : "#e5e5e5"} // Apply gradient or default
+              fill={entry.highlight ? entry.color : "#e5e5e5"} // Apply gradient or default
             />
           ))}
         </Bar>

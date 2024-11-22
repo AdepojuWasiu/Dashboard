@@ -21,11 +21,11 @@ const Header = () => {
          </div>
          
        </div>
-       <div className='md:hidden flex flex-col justify-start items-start justify-items-start pl-3 gap-2 text-bold pt-2'>
+       <div className='md:hidden flex  jpl-3 pt-3 h-[50px] w-[50px] pl-2'>
             <div className=' bg-[#6C5DD3] rounded-tl-2xl rounded-br-2xl flex items-center justify-center'>
               <img src={vector} alt='vector'/>
             </div>
-         </div>
+        </div>
        <div className='flex justify-center items-center justify-items-center md:gap-10 gap-4 pl-3 py-3' >
          <div className='flex flex-row bg-[#FAFAFA] h-5 py-5 px-6 lg:pr-40 md:pr-20 pr-10 justify-center justify-items-center items-center rounded-[12px] border-[1px] border-[#D9D9D9]'>
            <Iconly name='Search' set='bulk' stroke='bold' style={{ stroke: "#111827", color:"#ffff", width: 17.2, height: 17.62 }}/>

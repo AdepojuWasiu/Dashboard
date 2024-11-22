@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: #F8F9FF;
+  font-family: 'Inter';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: unset;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.shadow {
+  backdrop-filter: blur(27.200000762939453px);
+  box-shadow: 0px 12px 16px -4px #0c151b23;
+  background-color: #F8F9FB;
 }
 
-.App-link {
-  color: #61dafb;
+.subscription {
+  background-color:#f8f9fb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pieshadow {
+  box-shadow: 0px 8.54px 22.78px 0px #6C5DD31A;
+  background-color: #f8f9fb;
 }
+
+/* border: 26.45px solid;
+
+border-image-source: linear-gradient(283.95deg, #9EC600 -12.57%, #CDF4FF 126.88%); */
+
+.gradient{
+  background: linear-gradient(283.95deg, #0049C6 -12.57%, #CDF4FF 126.88%);  
+}
+
+.gradient2{
+  background: linear-gradient(135deg, #FFB7F5 0%, #6C5DD3 100%);
+}
+
+.gradient3{
+  background: linear-gradient(333.01deg, #FF754C -23.54%, #FFB7F5 173.81%);
+
+}
+
+.gradient4{
+  background: linear-gradient(283.95deg, #33C600 -12.57%, #CDF4FF 126.88%);
+}
+
+.gradient5{
+  background: linear-gradient(135deg, #B8B7FF 0%, #6C5DD3 100%);
+}
+
+.gradient6{
+  background: linear-gradient(333.01deg, #FF4CE2 -23.54%, #FFB7F5 173.81%);
+}
+
+.image-shadow{
+  backdrop-filter: blur(27.182817459106445px);
+
+box-shadow: 0px 4px 6px -2px #1E293B1A;
+
+box-shadow: 0px 12px 16px -4px #1E293B0A;
+background: #FFFFFFA6;
+
+
+}
+
+.shadow-pie{
+  box-shadow: 0px 8.54px 22.78px 0px #6C5DD31A;
+}
+
+.inner-pie{
+  box-shadow: 0px 8.82px 17.63px 0px #D8DAE5CC;
+}
+
+
+
+
+
+

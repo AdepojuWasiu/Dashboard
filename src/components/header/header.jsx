@@ -25,10 +25,6 @@ const Header = () => {
             <div className=' bg-[#6C5DD3] rounded-tl-2xl rounded-br-2xl flex items-center justify-center'>
               <img src={vector} alt='vector'/>
             </div>
-            <div>
-              <p style={{fontFamily: 'Crete Round'}} className='font-bold'>Chucky</p>
-              <p className='text-[15px] font-bold' style={{fontFamily: 'Crete Round'}}> Dashboard</p>
-            </div>
          </div>
        <div className='flex justify-center items-center justify-items-center md:gap-10 gap-4 pl-3 py-3' >
          <div className='flex flex-row bg-[#FAFAFA] h-5 py-5 px-6 lg:pr-40 md:pr-20 pr-10 justify-center justify-items-center items-center rounded-[12px] border-[1px] border-[#D9D9D9]'>

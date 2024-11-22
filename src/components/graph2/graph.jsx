@@ -18,7 +18,7 @@ const Piechart = () => {
   ];
 
   return (
-    <div className="relative w-[200px] h-[200px] shadow-pie rounded-full">
+    <div className="relative sm:w-[200px] w-[150px] h-[200px] shadow-pie rounded-full">
       {/* Pie Chart */}
       <PieChart width={200} height={200}>
         {/* Define Gradients */}

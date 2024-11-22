@@ -13,7 +13,7 @@ const Header = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   return (
-    <div className='flex flex-row justify-between bg-white'>
+    <div className='flex flex-row justify-between bg-white w-full'>
        <div className='ml-8  lg:flex hidden justify-center items-center justify-items-center'>
          <div className='flex flex-col'>
              <p className='text-[#111827] text-[24px] font-bold'>Hi Taylor!</p>
@@ -35,7 +35,7 @@ const Header = () => {
            <Iconly name='Search' set='bulk' stroke='bold' style={{ stroke: "#111827", color:"#ffff", width: 17.2, height: 17.62 }}/>
            <input type="text" placeholder='Search...' className='w-[100px] h-[32px] text-[14px] bg-[#FAFAFA] border-none focus:outline-none ' />
          </div>
-         <div className='flex justify-center items-center justify-items-center gap-5'>
+         <div className='flex justify-center items-center justify-items-center gap-1'>
             <div className='relative'>
               <Iconly name='Message' set='bulk' stroke='bold' style={{ stroke: "#111827", color:"#ffff", width: 25, height: 20}}/>
               <div className="bg-[#e92828] absolute top-[-6px] right-[-4px] z-30 py-[1px] px-[5px] rounded-full font-bold text-[10px] text-[#ffff]"><p>5</p></div>

@@ -10,7 +10,7 @@ const Total = () => {
          </div>
          <div className='flex flex-col'>
            <p className='text-[14px] text-[#64748B]'>Total Menu</p>
-           <p className='text-[30px] font-bold text-[#1E293B]'>345</p>
+           <p className='text-[25px] font-bold text-[#1E293B]'>345</p>
          </div>
       
        </div>
@@ -20,7 +20,7 @@ const Total = () => {
          </div>
          <div className='flex flex-col'>
            <p className='text-[14px] text-[#64748B]'>Total Revenue</p>
-           <p className='text-[30px] font-bold text-[#1E293B]'>$37,193.00</p>
+           <p className='text-[25px] font-bold text-[#1E293B]'>$37,193.00</p>
          </div>
        </div>
        <div className='shadow border-[1px] border-[#FFFF] h-[182px] rounded-[6px] py-[24px] pl-[24px] flex flex-col gap-[25px]' >
@@ -29,7 +29,7 @@ const Total = () => {
          </div>
          <div className='flex flex-col'>
            <p className='text-[14px] text-[#64748B]'>Total Customer</p>
-           <p className='text-[30px] font-bold text-[#1E293B]'>1349</p>
+           <p className='text-[25px] font-bold text-[#1E293B]'>1349</p>
          </div>
        </div>
        <div className='shadow border-[1px] border-[#FFFF] h-[182px] rounded-[6px] py-[24px] pl-[24px] flex flex-col gap-[25px]' >
@@ -38,7 +38,7 @@ const Total = () => {
          </div>
          <div className='flex flex-col'>
            <p className='text-[14px] text-[#64748B]'>Total Orders</p>
-           <p className='text-[30px] font-bold text-[#1E293B]'>3,500</p>
+           <p className='text-[25px] font-bold text-[#1E293B]'>3,500</p>
          </div>
        </div>
        

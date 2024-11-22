@@ -51,17 +51,17 @@ const Main = () => {
              <BsThreeDots color="gray" className="w-[20px] h-[20px] " />
            </div>
            <div className='h-0.5  w-full bg-[#E6E8f0]'/>
-           <div className='flex flex-row gap-[10px] py-[48px]'>
+           <div className='flex flex-row gap-[5px] py-[48px]'>
               <Graph />
                 <div className='flex flex-col justify-start items-start'>
-                  <div className='flex flex-row justify-center items-center justify-items-center gap-[2px] '>
+                  <div className='flex flex-row justify-center items-center justify-items-center gap-[0.5px] '>
                     <Graph3 />
                     <div>
                       <p className='text-[14px] text-[#081735] font-bold'>+ 18%</p>
                       <p className='text-[12px] text-[#8F95B2]'>Daily Customers</p>
                     </div>
                   </div>
-                  <div className='flex flex-row justify-center items-center justify-items-center gap-[2px]'>
+                  <div className='flex flex-row justify-center items-center justify-items-center gap-[0.5px]'>
                     <Graph4 />
                     <div className='justify-start w-full'>
                       <p className='text-[14px] text-[#081735] font-bold'>+ 14%</p>
@@ -99,7 +99,7 @@ const Main = () => {
           </div>
           <div className='border-[2px] border-[#fff] rounded-lg p-4 lg:pr-[67px] bg-white flex flex-col  justify-center items-center gap-4'>
             <p className='text-[20px] font-bold text-[#000000f5]'>Customer List</p>
-            <div className='grid lg:grid-cols-1 grid-cols-2 lg:gap-1 gap-7 mt-2'>
+            <div className='grid grid-cols-1 lg:gap-1 gap-7 mt-2'>
               <div className='flex flex-row gap-1'>
                 <img src={Ellipse} alt="ellipse"/>
                 <div>

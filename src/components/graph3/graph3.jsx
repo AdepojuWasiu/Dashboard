@@ -4,18 +4,18 @@ import path from '../../assets/Charts.png';
 
 const Piechart = () => {
   const data = [
-    { name: "Completed", value: 100 }, // Percentage to fill
-    { name: "Remaining", value: 0 } // Remaining percentage
+    { name: "Completed", value: 100 }, 
+    { name: "Remaining", value: 0 } 
   ];
 
   const data2 = [
-    { name: "Completed", value: 30 }, // Percentage to fill
-    { name: "Remaining", value: 70 } // Remaining percentage
+    { name: "Completed", value: 30 }, 
+    { name: "Remaining", value: 70 } 
   ];
 
-  const colors = [  '#E2E6FF', "#6C5DD3"]; // Adjust colors for filled and background 
+  const colors = [  '#E2E6FF', "#6C5DD3"]; 
 
-  const colors2 = ["url(#gradient5)", "#e0e0e000"]; // Use gradient for the first bar in data2
+  const colors2 = ["url(#gradient5)", "#e0e0e000"]; 
   const color3 = ['#6C5DD3','#e0e0e000']
 
   return (
@@ -24,7 +24,8 @@ const Piechart = () => {
       
       {/* Pie Chart */}
       <PieChart width={100} height={100}>
-        {/* Define Gradients */}
+
+        {/* Gradients */}
         <defs>
           <linearGradient id="gradient5" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#B8B7FF" />
@@ -78,7 +79,7 @@ const Piechart = () => {
       
       {/* Pie Chart */}
       <PieChart width={100} height={100}>
-        {/* Define Gradients */}
+        {/* Gradients */}
         <defs>
           <linearGradient id="gradient5" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#B8B7FF" />

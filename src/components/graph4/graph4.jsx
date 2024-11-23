@@ -4,18 +4,18 @@ import path2 from '../../assets/path2.png';
 
 const Piechart = () => {
   const data = [
-    { name: "Completed", value: 100 }, // Percentage to fill
-    { name: "Remaining", value: 0 } // Remaining percentage
+    { name: "Completed", value: 100 }, 
+    { name: "Remaining", value: 0 } 
   ];
 
   const data2 = [
-    { name: "Completed", value: 30 }, // Percentage to fill
-    { name: "Remaining", value: 70 } // Remaining percentage
+    { name: "Completed", value: 30 }, 
+    { name: "Remaining", value: 70 } 
   ];
 
-  const colors = ['#9EC6001A', "#6C5DD3"]; // Adjust colors for filled and backgroundbackground: #9EC6001A;
+  const colors = ['#9EC6001A', "#6C5DD3"]; 
 
-  const colors2 = ["url(#gradient4)", "#e0e0e000"]; // Updated with gradient for the second bar
+  const colors2 = ["url(#gradient4)", "#e0e0e000"]; 
   const color3 = ["#4CAF50",'#e0e0e000']
 
   return (
@@ -23,7 +23,7 @@ const Piechart = () => {
       <div className="relative w-[100px] h-[100px] rounded-full md:flex hidden">
       {/* Pie Chart */}
       <PieChart width={100} height={100}>
-        {/* Define Gradients */}
+        {/*  Gradients */}
         <defs>
           <linearGradient id="gradient4" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#33C600" />
@@ -76,7 +76,7 @@ const Piechart = () => {
     <div className="relative w-[100px] h-[100px] rounded-full md:hidden flex">
       {/* Pie Chart */}
       <PieChart width={100} height={100}>
-        {/* Define Gradients */}
+        {/* Gradients */}
         <defs>
           <linearGradient id="gradient4" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#33C600" />

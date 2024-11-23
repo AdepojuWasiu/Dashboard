@@ -2,7 +2,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Cell } from "recharts";
 
-// Sample Data
 const data = [
   { name: "Jan", value: 30 },
   { name: "Feb", value: 40 },
@@ -68,7 +67,7 @@ const Barchart = () => {
           {data.map((entry, index) => (
             <Cell
               key={`cell-${index}`}
-              fill={entry.highlight ? entry.gradient : "#e5e5e5"} // Apply gradient or default
+              fill={entry.highlight ? entry.gradient : "#e5e5e5"} 
             />
           ))}
         </Bar>
@@ -156,7 +155,7 @@ const Barchart = () => {
           {data.map((entry, index) => (
             <Cell
               key={`cell-${index}`}
-              fill={entry.highlight ? entry.color : "#e5e5e5"} // Apply gradient or default
+              fill={entry.highlight ? entry.color : "#e5e5e5"} 
             />
           ))}
         </Bar>

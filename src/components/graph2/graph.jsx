@@ -22,7 +22,7 @@ const Piechart = () => {
          <div className="relative w-[200px]  h-[200px] shadow-pie rounded-full md:flex hidden">
       {/* Pie Chart */}
       <PieChart width={200} height={200}>
-        {/* Define Gradients */}
+        {/*  Gradients */}
         <defs>
           <linearGradient id="gradient4" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#33C600" />
@@ -48,7 +48,7 @@ const Piechart = () => {
             <Cell key={`cell-${index}`} fill={index === 0 ? "#e0e0e0" : "#6C5DD3"} />
           ))}
         </Pie>
-
+         {/* Second Pie */}
         <Pie
           data={data3}
           dataKey="value"
@@ -63,7 +63,7 @@ const Piechart = () => {
           ))}
         </Pie>
 
-        {/* Second Pie */}
+        {/* Third Pie */}
         <Pie
           data={data2}
           dataKey="value"
@@ -78,23 +78,24 @@ const Piechart = () => {
           ))}
         </Pie>
 
-        {/* Third Pie */}
+        
      
       </PieChart>
 
       {/* Overlayed Text */}
       <div className="absolute inset-0 flex flex-col justify-center items-center rounded-full">
-        <div className="rounded-full inner-pie p-[10px]">
+        <div className="rounded-full inner-pie p-[13px]  text-[#0049C6]">
           <p>82.3%</p>
           <p>Total</p>
         </div>
       </div>
     </div>
 
+    {/* piechart for mobile  */}
+
     <div className="relative  w-[150px]  h-[150px] shadow-pie rounded-full md:hidden">
-      {/* Pie Chart */}
       <PieChart width={160} height={160}>
-        {/* Define Gradients */}
+        {/* Gradients */}
         <defs>
           <linearGradient id="gradient4" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stopColor="#33C600" />
@@ -120,7 +121,7 @@ const Piechart = () => {
             <Cell key={`cell-${index}`} fill={index === 0 ? "#e0e0e0" : "#6C5DD3"} />
           ))}
         </Pie>
-
+           {/* Second Pie */}
         <Pie
           data={data3}
           dataKey="value"
@@ -134,8 +135,7 @@ const Piechart = () => {
             <Cell key={`cell-${index}`} fill={index === 0 ? "#4CAF50" : "#e0e0e01A"} />
           ))}
         </Pie>
-
-        {/* Second Pie */}
+         {/* Third Pie */}
         <Pie
           data={data2}
           dataKey="value"
@@ -149,14 +149,12 @@ const Piechart = () => {
             <Cell key={`cell-${index}`} fill={index === 0 ? "#8A2BE2" : "#FFFFFF00"} />
           ))}
         </Pie>
-
-        {/* Third Pie */}
      
       </PieChart>
 
       {/* Overlayed Text */}
       <div className="absolute inset-0 flex flex-col justify-center items-center rounded-full">
-        <div className="rounded-full inner-pie p-[10px]">
+        <div className="rounded-full inner-pie p-[10px] text-[#0049C6] text-[13px]">
           <p>82.3%</p>
           <p>Total</p>
         </div>

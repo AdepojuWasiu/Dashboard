@@ -94,7 +94,7 @@ const Main = () => {
                <div className='absolute top-[55%] left-[68%]  bg-white p-0.5 rounded-full'><img src={vector2} alt="vector" className='object-contain w-[12px] h-[12px]'/></div>
                <div className='absolute top-[40%] left-[79%]  bg-white p-0.5 rounded-full'><img src={vector2} alt="vector" className='object-contain w-[12px] h-[12px]'/></div>
                <div className='absolute top-[11%] left-[80%]  bg-white p-0.5 rounded-full'><img src={vector2} alt="vector" className='object-contain w-[12px] h-[12px]'/></div>
-               <div className='absolute top-[95%] left-[85%]  bg-white p-0.5 rounded-full'><img src={vector2} alt="vector" className='object-contain w-[12px] h-[12px]'/></div>
+               <div className='absolute top-[92%] left-[85%]  bg-white p-0.5 rounded-full'><img src={vector2} alt="vector" className='object-contain w-[12px] h-[12px]'/></div>
               </div>
           </div>
           <div className='border-[2px] border-[#fff] rounded-lg p-4 lg:pr-[67px] bg-white flex flex-col  justify-center items-center gap-4'>

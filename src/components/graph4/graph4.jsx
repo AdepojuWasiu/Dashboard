@@ -9,8 +9,8 @@ const Piechart = () => {
   ];
 
   const data2 = [
-    { name: "Completed", value: 30 }, 
-    { name: "Remaining", value: 70 } 
+    { name: "Completed", value: 60 }, 
+    { name: "Remaining", value: 40 } 
   ];
 
   const colors = ['#9EC6001A', "#6C5DD3"]; 

@@ -36,8 +36,8 @@ const Main = () => {
            </div>
            <div className='flex flex-row justify-start items-start w-full pl-[15px] gap-[10px]'>
             <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Pending(100%)</p></div>
-            <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient2 w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Pending(100%)</p></div>
-            <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient3 w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Pending(100%)</p></div>
+            <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient2 w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Income</p></div>
+            <div className='flex flex-row justify-center items-center justify-items-center gap-2'><div className=' h-[12px] gradient3 w-[12px] rounded-sm' /><p className='text-[12px] text-[#8F95B2]'>Experience</p></div>
            </div>
            <div className='absolute flex flex-col bg-[#ffffff] border-[#E6E8F0] border-solid border-[1px] justify-start items-start p-[12px] top-12 right-5 w-full] pr-[40px] gap-[15px] rounded-[8px]' >
              <div className='flex flex-row gap-[13px] justify-center items-center justify-items-center '> <FaEye color="gray" className="w-[14px] h-[14px] " /><p className='text-[14px] text-[#8F95B2]'>View</p></div>

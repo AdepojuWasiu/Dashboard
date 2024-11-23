@@ -54,7 +54,7 @@ const Main = () => {
            <div className='flex flex-row gap-[5px] py-[48px]'>
               <Graph />
                 <div className='flex flex-col justify-start items-start'>
-                  <div className='flex flex-row  '>
+                  <div className='flex flex-row justify-center item-center justify-item-center '>
                     <Graph3 />
                     <div>
                       <p className='text-[14px] text-[#081735] font-bold'>+ 18%</p>
